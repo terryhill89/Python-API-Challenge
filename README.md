@@ -30,7 +30,7 @@ To fulfill the second requirement, compute the linear regression for each relati
 
 Next, create a series of scatter plots. Be sure to include the linear regression line, the model's formula, and the r values as you can see in the following image
 
-"C:\Users\TEEGO\OneDrive\Desktop\linear-regression-plot.png"
+<img width="536" alt="linear-regression-plot" src="https://user-images.githubusercontent.com/112741203/215727616-87f3a30b-fc73-4be6-a645-0b6386420c1f.png">
 
 You should create the following plots:
 
