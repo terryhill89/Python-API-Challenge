@@ -50,7 +50,7 @@ You should create the following plots:
 
 - Southern Hemisphere: Wind Speed vs. Latitude
 
-- After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
+After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
 
 ## Part 2: VacationPy
 In this deliverable, you'll use your weather data skills to plan future vacations. Also, you'll use Jupyter notebooks, the geoViews Python library, and the Geoapify API.
@@ -104,4 +104,6 @@ Feel free to adjust your specifications but make sure to set a reasonable limit 
 
 - Ensure that your repository has regular commits and a thorough README.md file.
 
-- Lastly, remember that this is a challenging activity. Push yourself! If you complete this task, you can safely say that you've gained a strong understanding of the core foundations of data analytics, and it will only get better from here. #### Good luck!
+- Lastly, remember that this is a challenging activity. Push yourself! If you complete this task, you can safely say that you've gained a strong understanding of the core foundations of data analytics, and it will only get better from here. 
+
+#### Good luck!
