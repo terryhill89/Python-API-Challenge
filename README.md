@@ -67,41 +67,41 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
 
 2. Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
 
-A max temperature lower than 27 degrees but higher than 21
+- A max temperature lower than 27 degrees but higher than 21
 
-Wind speed less than 4.5 m/s
+- Wind speed less than 4.5 m/s
 
-Zero cloudiness
+- Zero cloudiness
 
-#### NOTE
+#### NOTE:
 Feel free to adjust your specifications but make sure to set a reasonable limit to the number of rows returned by your API requests.
 
-Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
+3. Create a new DataFrame called hotel_df to store the city, country, coordinates, and humidity.
 
-For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
+4. For each city, use the Geoapify API to find the first hotel located within 10,000 meters of your coordinates.
 
-Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
+5. Add the hotel name and the country as additional information in the hover message for each city on the map as in the following image:
 
-Hotel map
+![hotel_map](https://user-images.githubusercontent.com/112741203/215729394-68c7fe65-8d12-403a-8967-267208bc31d4.png)
 
 ## Hints and Considerations
-The city data that you generate is based on random coordinates and different query times, so your outputs will not be an exact match to the provided starter notebook.
+- The city data that you generate is based on random coordinates and different query times, so your outputs will not be an exact match to the provided starter notebook.
 
-If you'd like a refresher on the geographic coordinate system, this site Links to an external site.has great information.
+- If you'd like a refresher on the geographic coordinate system, this site Links to an external site.has great information.
 
-Take some time to study the OpenWeatherMap API. Based on your initial study, you should be able to answer basic questions about the API: Where do you request the API key? Which Weather API in particular will you need? What URL endpoints does it expect? What JSON structure does it respond with? Before you write a line of code, you should have a crystal-clear understanding of your intended outcome.
+- Take some time to study the OpenWeatherMap API. Based on your initial study, you should be able to answer basic questions about the API: Where do you request the API key? Which Weather API in particular will you need? What URL endpoints does it expect? What JSON structure does it respond with? Before you write a line of code, you should have a crystal-clear understanding of your intended outcome.
 
-A starter code for citipy has been provided. However, if you're craving an extra challenge, push yourself to learn how it works by using the citipy Python library Links to an external site.. Before you try to incorporate the library in your analysis, start with simple test cases outside of your main script to confirm that you are using it correctly. Often, when introduced to a new library, learners spend hours trying to figure out errors in their code when a simple test case can save you a lot of time and frustration.
+- A starter code for citipy has been provided. However, if you're craving an extra challenge, push yourself to learn how it works by using the citipy Python library Links to an external site.. Before you try to incorporate the library in your analysis, start with simple test cases outside of your main script to confirm that you are using it correctly. Often, when introduced to a new library, learners spend hours trying to figure out errors in their code when a simple test case can save you a lot of time and frustration.
 
-You will need to apply your critical thinking skills to understand how and why we're recommending these tools. What is citipy used for? Why would you use it in conjunction with the OpenWeatherMap API? How would you do so?
+- You will need to apply your critical thinking skills to understand how and why we're recommending these tools. What is citipy used for? Why would you use it in conjunction with the OpenWeatherMap API? How would you do so?
 
-While building your script, pay attention to the cities you are using in your query pool. Are you covering the full range of latitudes and longitudes? Or are you choosing 500 cities from one region of the world? Even if you were a geography genius, simply listing 500 cities based on your personal selection would create a biased dataset. Try to think of ways that you can counter these selection issues.
+- While building your script, pay attention to the cities you are using in your query pool. Are you covering the full range of latitudes and longitudes? Or are you choosing 500 cities from one region of the world? Even if you were a geography genius, simply listing 500 cities based on your personal selection would create a biased dataset. Try to think of ways that you can counter these selection issues.
 
 #### Hint: Consider the full range of latitudes.
-Once you have computed the linear regression for one relationship, you will follow a similar process for all other charts. Optionally, try to create a function that will create these charts based on different parameters. (Note: there will be no extra points for completing this.)
+- Once you have computed the linear regression for one relationship, you will follow a similar process for all other charts. Optionally, try to create a function that will create these charts based on different parameters. (Note: there will be no extra points for completing this.)
 
-Remember that each coordinate will trigger a separate call to the Google API. If you're creating your own criteria to plan your vacation, try to reduce the results in your DataFrame to 10 or fewer cities.
+- Remember that each coordinate will trigger a separate call to the Google API. If you're creating your own criteria to plan your vacation, try to reduce the results in your DataFrame to 10 or fewer cities.
 
-Ensure that your repository has regular commits and a thorough README.md file.
+- Ensure that your repository has regular commits and a thorough README.md file.
 
-Lastly, remember that this is a challenging activity. Push yourself! If you complete this task, you can safely say that you've gained a strong understanding of the core foundations of data analytics, and it will only get better from here. Good luck!
+- Lastly, remember that this is a challenging activity. Push yourself! If you complete this task, you can safely say that you've gained a strong understanding of the core foundations of data analytics, and it will only get better from here. #### Good luck!
