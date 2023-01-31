@@ -34,23 +34,23 @@ Next, create a series of scatter plots. Be sure to include the linear regression
 
 You should create the following plots:
 
-Northern Hemisphere: Temperature vs. Latitude
+- Northern Hemisphere: Temperature vs. Latitude
 
-Southern Hemisphere: Temperature vs. Latitude
+- Southern Hemisphere: Temperature vs. Latitude
 
-Northern Hemisphere: Humidity vs. Latitude
+- Northern Hemisphere: Humidity vs. Latitude
 
-Southern Hemisphere: Humidity vs. Latitude
+- Southern Hemisphere: Humidity vs. Latitude
 
-Northern Hemisphere: Cloudiness vs. Latitude
+- Northern Hemisphere: Cloudiness vs. Latitude
 
-Southern Hemisphere: Cloudiness vs. Latitude
+- Southern Hemisphere: Cloudiness vs. Latitude
 
-Northern Hemisphere: Wind Speed vs. Latitude
+- Northern Hemisphere: Wind Speed vs. Latitude
 
-Southern Hemisphere: Wind Speed vs. Latitude
+- Southern Hemisphere: Wind Speed vs. Latitude
 
-After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
+- After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
 
 ## Part 2: VacationPy
 In this deliverable, you'll use your weather data skills to plan future vacations. Also, you'll use Jupyter notebooks, the geoViews Python library, and the Geoapify API.
@@ -61,11 +61,11 @@ Your main tasks will be to use the Geoapify API and the geoViews Python library 
 
 To succeed on this deliverable of the assignment, open the VacationPy.ipynb starter code and complete the following steps:
 
-Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
+1. Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
 
-Humidity map
+![humidity_map](https://user-images.githubusercontent.com/112741203/215728772-96c0aa03-4926-4696-b9b4-99f161dd7fc8.png)
 
-Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
+2. Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
 
 A max temperature lower than 27 degrees but higher than 21
 
